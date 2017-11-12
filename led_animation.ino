@@ -45,10 +45,10 @@ void setup() {
     for (int i = 0; i < 7; ++i) {
         pinMode(LED_PINS[i], OUTPUT);
     }
-  
- 	for (int i = 0; i < 3; ++i) {
-   		pinMode(SHORT_LED_PINS[i], OUTPUT);
-  	}
+
+    for (int i = 0; i < 3; ++i) {
+        pinMode(SHORT_LED_PINS[i], OUTPUT);
+    }
 }
 
 void loop() {
